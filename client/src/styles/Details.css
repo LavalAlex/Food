@@ -1,0 +1,242 @@
+*{
+    font-style: italic ;
+}
+
+.header-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: black; */
+    width: 750px; height: 140px;
+    /* background: rgba(0, 0, 0, 0.5); */
+
+
+}
+
+.btn-search{
+    width: 150px; height: 25px;
+    border:none;
+    border-radius: 10px;
+    /* margin:0.5em 0; */
+    transform: translate(-1%);
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #ff416c, #ffab2b);
+    transition: all .4s;
+
+}
+
+.header-details input{
+    width: 160px; height: 25px;
+    padding: 5px;
+    font-size: 13px;
+    border: 1px solid #888;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    text-indent: 5px;
+    font-style: italic ;
+    margin-right: 15px;
+    margin-left: 20px;
+
+}
+
+.btn-back{
+    width: 150px; height: 25px;
+    border:none;
+    border-radius: 10px;
+    /* margin:0.5em 0; */
+    transform: translate(-1%);
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #2083F8, #14bae4);
+    transition: all .4s;
+    margin-left: 15px;
+}
+
+.frame-details{
+    width: 750px; height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    flex-wrap: nowrap;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.img-details img{
+    width: 150px; height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.name-sumarry{
+    width: 600px; height: 300px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+
+.header-card-details{
+    background-color: blanchedalmond;
+    display: flex;
+    gap:12px;
+    border-radius: 50px 50px 0px 0px ;  
+   
+}
+
+.conteiner-types-scores-step{
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 0px 0px 50px 50px;
+}
+
+
+.conteiner-scores{
+    margin-top: 25px;
+    border-radius: 50px 10px;
+    padding: 20px;
+    width:70px;
+    background:  linear-gradient(to top right,blanchedalmond, #19D95E ) ;
+}
+
+.conteiner-types{
+    margin-top: 10px;
+    border-radius: 10px 50px ;
+    padding: 20px;
+    width:70px;
+    background: linear-gradient(to bottom right, #19D95E,blanchedalmond); 
+}
+
+.conteiner-step{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.score {
+    border:1px solid #ffab2b;
+    border-radius: 10px 50px ;
+    background-color: #ffab2b;
+    margin-top: 40px;
+}
+
+.health{
+    border:1px solid #ffab2b;
+    border-radius: 50px 10px;
+    background-color: #ffab2b;
+    margin-top: 25px;
+}
+
+.type-dish{
+    border:1px solid #ffab2b;
+    border-radius: 50px  10px ;
+    background-color: #ffab2b;
+    
+   
+}
+
+.type-diet{
+    border:1px solid #ffab2b;
+    border-radius: 10px 50px ;
+    background-color: #ffab2b;
+    padding: 0px 5px 20px 5px;
+}
+
+.type-diet h5{
+    font-size: 13px;
+}
+.type-dish h5{
+    font-size: 13px;
+}
+.type-diet p{
+    font-size: 12px;
+    color: black;
+}
+.type-dish p{
+    font-size: 12px;
+    color: black;
+}
+
+p{
+    font-size: 12px;
+}
+
+span{
+    font-size: 15px;
+}
+
+.frame{
+    /* background-color: #333537; */
+    background-image: url("../image/landingPage/img-fodo1.jpeg");
+    background-position-x: 0px;
+    /* margin-top: 20px; */
+    min-height: 700px;
+}
+
+.search{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    /* background: rgba(0, 0], 0, 0.5); */
+    padding-left: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 85px 75px;
+
+}
+
+.conteiner-search{
+    display: flex;
+    width: 750px;
+   
+    align-items: center;   
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    width: 650px;
+    padding-left: 100px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.conteiner-radio{
+    margin-right: 150px;
+}
+.message h2{
+    font-size: 25px;
+    color: brown;
+}
+
+/* .message{
+    width: 500px; height: 50px;
+    background-image: url("../gif/LoadingXXI.aco");
+} */
+
+.loading{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    /* align-items: center; */
+}
+
+.loading img{
+    width: 50px;
+}
+
+.loading span{
+    font-size: 50px;
+    color: white;
+}

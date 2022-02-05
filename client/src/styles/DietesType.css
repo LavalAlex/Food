@@ -1,0 +1,12 @@
+.selection-home option{
+    width: 95%; height: 25px;
+    font-size: 1em; 
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(to right, #ff416c, #ffab2b);
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}

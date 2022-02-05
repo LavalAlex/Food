@@ -1,0 +1,33 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    
+    
+    justify-content: center;
+    align-items: center;
+    background: url(../image/landingPage/img-fodo5.jpeg);
+    height: 700px;
+    object-fit: cover;
+}
+
+.title{
+    color:white;
+    margin-right: 400px;
+    margin-bottom: 150px;
+}
+
+.bot-navigation{
+    width: 200px; height: 25px;
+    border:none;
+    border-radius: 10px;
+    margin:0.5em 0;
+    transform: translate(-1%);
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #ff416c, #ffab2b);
+    transition: all .4s;
+}
+.bot-navigation:hover{
+    background: linear-gradient(to right, #ffab2b, #ff416c);
+    transition: all 1s ease;
+}
