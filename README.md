@@ -84,7 +84,7 @@ url =https://api.spoonacular.com/recipes/complexSearch?&addRecipeInformation=tru
 
 ### Initiation:
 
-*Api and Client:
+__Api__ and __Client__:
 *npm 
 ```sh
 npm start
