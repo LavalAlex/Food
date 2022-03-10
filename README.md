@@ -32,21 +32,13 @@
 <br />
 <div align="center">
   <h1 align="center">FOOD</h1>
+  (https://example.com)
+
   <img src="images/Home.png" alt="Logo" width="600" height="400">
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-(https://example.com)
-
-
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
 La idea general es crear una aplicación en la cual se puedan ver distintas recetas de comida junto con información relevante de las mismas utilizando la api externa [spoonacular](https://spoonacular.com/food-api) y a partir de ella poder, entre otras cosas:
 
 - Buscar recetas
@@ -55,6 +47,15 @@ La idea general es crear una aplicación en la cual se puedan ver distintas rece
 
 
 __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cuenta para obtener una API Key que luego debera ser incluida en todos los request que hagamos a spoonacular simplemente agregando `?apiKey={YOUR_API_KEY}` al final de cada endpoint. Agregar la clave en el archivo `.env` para que la misma no se suba al repositorio por cuestiones de seguridad y utilizarla desde allí. Por otro lado tienen un límite de requests por día por lo que usenlos con cuidado!
+
+
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
 
 ### Prerequisites
 
