@@ -36,7 +36,7 @@
 
   <img src="images/Home.png" alt="Logo" width="600" height="400">
 </div>
- (https://example.com)
+[ (https://example.com)](url)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
