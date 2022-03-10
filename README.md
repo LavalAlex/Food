@@ -28,13 +28,14 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
 
+<br />
+<div align="center">
   <h3 align="center">FOOD</h3>
 <div align="center">
     <img src="images/Home.png" alt="Logo" width="400" height="400">
   </a>
-
+</div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
