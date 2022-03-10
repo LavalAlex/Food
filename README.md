@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Link que va a la pagina][product-screenshot]](https://example.com)
+(https://example.com)
 
 
 
@@ -50,12 +50,12 @@
 
 La idea general es crear una aplicación en la cual se puedan ver distintas recetas de comida junto con información relevante de las mismas utilizando la api externa [spoonacular](https://spoonacular.com/food-api) y a partir de ella poder, entre otras cosas:
 
-  - Buscar recetas
-  - Filtrarlos / Ordenarlos
-  - Crear nuevas recetas propias
+- Buscar recetas
+- Filtrarlos / Ordenarlos
+- Crear nuevas recetas propias
 
 
- __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cuenta para obtener una API Key que luego debera ser incluida en todos los request que hagamos a spoonacular simplemente agregando `?apiKey={YOUR_API_KEY}` al final de cada endpoint. Agregar la clave en el archivo `.env` para que la misma no se suba al repositorio por cuestiones de seguridad y utilizarla desde allí. Por otro lado tienen un límite de requests por día por lo que usenlos con cuidado!
+__IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cuenta para obtener una API Key que luego debera ser incluida en todos los request que hagamos a spoonacular simplemente agregando `?apiKey={YOUR_API_KEY}` al final de cada endpoint. Agregar la clave en el archivo `.env` para que la misma no se suba al repositorio por cuestiones de seguridad y utilizarla desde allí. Por otro lado tienen un límite de requests por día por lo que usenlos con cuidado!
 
 ### Prerequisites
 
@@ -67,7 +67,10 @@ La idea general es crear una aplicación en la cual se puedan ver distintas rece
 
 Iniciar node en las carpetas api y client con:
 
-*npm init --yes
+*npm 
+```sh
+npm init --yess
+```
 
 Ademas debe generar un archivo `.env` en la carpeta API donde:
 
@@ -78,4 +81,17 @@ DB_NAME= nombre_basedato
 apiKey= key que te otorga la api al crearte la cuenta
 url =https://api.spoonacular.com/recipes/complexSearch?&addRecipeInformation=true&number=100&apiKey=
 
+### Initiation:
+
+-Api:
+*npm 
+```sh
+npm start
+```
+
+-Client:
+*npm 
+```sh
+npm start
+```
 
