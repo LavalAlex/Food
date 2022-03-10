@@ -73,12 +73,14 @@ npm init --yess
 
 Ademas debe generar un archivo `.env` en la carpeta API donde:
 
+```.env
 DB_USER= nombre_user
 DB_PASSWORD= password
 DB_HOST= localhost
 DB_NAME= nombre_basedato
 apiKey= key que te otorga la api al crearte la cuenta
 url =https://api.spoonacular.com/recipes/complexSearch?&addRecipeInformation=true&number=100&apiKey=
+```
 
 ### Initiation:
 
