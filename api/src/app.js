@@ -1,10 +1,9 @@
 const express = require("express");
-// const fileupload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
 const morgan = require("morgan");
 const cors = require("cors");
 const routes = require("./routes/index.js");
-const routesMongo = require('./routes/routeMDB');
+const routesMongo = require('./routes');
 const server = express();
 const mongoose = require("mongoose");
 
@@ -14,8 +13,6 @@ mongoose.connect("mongodb://localhost/food", {
   useUnifiedTopology: true,
 });
 require("dotenv").config();
-
-require("./db.js");
 
 // settings
 server.set("port", process.env.PORT || 3001);
@@ -28,7 +25,7 @@ server.use(morgan("dev"));
 // nuevo y mejorado cors
 server.use(cors());
 
-server.use("/", routes);
+// server.use("/", routes);
 server.use("/mongo", routesMongo);
 
 // Catch 404 Errors

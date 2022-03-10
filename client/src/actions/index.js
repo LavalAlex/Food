@@ -25,7 +25,9 @@ export function getRecipeAllID(payload) {
 export function getRecipeName(name) {
   return async function (dispatch) {
     try {
-      var json = await axios.get("http://localhost:3001/mongo/recipes?name=" + name);
+      var json = await axios.get(
+        "http://localhost:3001/mongo/recipes?name=" + name
+      );
       return dispatch({
         type: "GET_RECIPE_NAME",
         payload: json.data,
@@ -62,7 +64,8 @@ export function getDietType() {
     } catch (error) {
       console.log("Error en api front", error);
     }
-  }}
+  };
+}
 
 export function filterRecipeBYDiet(payload) {
   return {
@@ -80,7 +83,10 @@ export function filterRecipeADS(payload) {
 
 export function postRecipe(payload) {
   return async function (dispatch) {
-    const data = await axios.post("http://localhost:3001/mongo/recipes", payload);
+    const data = await axios.post(
+      "http://localhost:3001/mongo/recipes",
+      payload
+    );
     return data;
   };
 }

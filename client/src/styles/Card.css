@@ -1,104 +1,82 @@
-*{
-    font-style: italic ;
+* {
+  font-style: italic;
 }
-.frame-card{
-    position: relative;
-    width: 250px; height: 400px;
-    border: 1px ;
-    border-radius: 15px 15px 15px 15px; 
-    background-color: blanchedalmond;
-    /* box-shadow: 10px 20px 25px 20px rgba(97, 161, 221, 0.4); */
-    overflow: hidden;
-    text-align: center;
-    margin: 15px;
-    box-shadow: 10px 10px 30px rgba(29, 29, 28, 0.5);
-
-}
-
-.header-card{
-    padding: 10px;
-    background:  linear-gradient(to top ,blanchedalmond, #19D95E ) ;
-
-    /* background-image: linear-gradient(60deg, #5abf87, #5abf87); */
+.frame-card {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  border: 1px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: blanchedalmond;
+  overflow: hidden;
+  text-align: center;
+  margin: 15px;
+  box-shadow: 10px 10px 30px rgba(29, 29, 28, 0.5);
 }
 
-.header-card img{
-    width: 120px; height: 75px;
-    object-fit: cover;
-    border-radius: 50%;
-    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); */
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-
+.header-card {
+  padding: 10px;
+  background: linear-gradient(to top, blanchedalmond, #19d95e);
 }
 
-.frame-body{
-    position: relative;
-    /* width: 250px; height: 60px; */
-    /* background-color: blanchedalmond; */
-
+.header-card img {
+  width: 120px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.body-card{
-    width: 250px; height: 185px;
+.frame-body {
+  position: relative;
 }
 
-.body-card h4{
-    text-transform: uppercase; 
-    font-size: 15px;
-    font-style: italic;
-    padding: 1px;  
-    position: relative;
-
-
+.body-card {
+  width: 250px;
+  height: 185px;
 }
 
-.body-card h5{
-    transition: all;
-    font-size:  12px;
-    font-style: italic ;
-   
+.body-card h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: italic;
+  padding: 1px;
+  position: relative;
 }
 
-.body-card p{
-    font-size: 10px;
-    font-style: italic ;
-
+.body-card h5 {
+  transition: all;
+  font-size: 12px;
+  font-style: italic;
 }
 
-.btn-card{
-    position: absolute;
-    width: 250px; height: 10px;
-    margin-top: 0px;
+.body-card p {
+  font-size: 10px;
+  font-style: italic;
 }
 
-/* .btn{
-    display: inline-flexbox;
-    text-decoration:none;
-    background-image: linear-gradient(to right, #064427, #5abf87);
-    color: #fff;
-    border-radius: 100px;
-    transition: all 0.5s;
-    padding: 5px 10px;
-    font-style: italic ;
-} */
-.btn-card button{
-    border:none;
-    border-radius: 10px;
-    /* margin:.5em 0 0 15px; */
-    transform: translate(-1%);
-    cursor: pointer;
-    color: white;
-    background: linear-gradient(to right, #ff416c, #ffab2b);
-    transition: all .4s;
-    padding: 5px 15px 5px 15px; 
-}
-.btn:hover{
-    background: linear-gradient(to right, #ffab2b, #ff416c);
-    transition: all 1s ease;
+.btn-card {
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  margin-top: 0px;
 }
 
-/* .body-card .btn:hover{ opacity: 0.8;} */
+.btn-card button {
+  border: none;
+  border-radius: 10px;
+  transform: translate(-1%);
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to right, #ff416c, #ffab2b);
+  transition: all 0.4s;
+  padding: 5px 15px 5px 15px;
+}
+.btn:hover {
+  background: linear-gradient(to right, #ffab2b, #ff416c);
+  transition: all 1s ease;
+}
 
-#diete-type{
-    position: relative;
+#diete-type {
+  position: relative;
 }

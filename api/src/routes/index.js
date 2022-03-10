@@ -1,9 +1,8 @@
 const { Router } = require("express");
 const routerMongo = Router();
-
 const Diet = require("../models/dietMDB");
 const Recipe = require("../models/recipeMDB");
-const { getDiet, getRecipesAll, getRecipeId } = require("../utils/utilsMongo");
+const { getRecipesAll, getRecipeId } = require("../utils/utilsMongo");
 
 routerMongo.get("/types", async (req, res) => {
   try {

@@ -46,7 +46,6 @@ export default function Home() {
     setCurrentPage(pageNumber);
   };
 
- 
   //Volver a cargar pagina
   function handleClick(e) {
     e.preventDefault();
@@ -68,10 +67,7 @@ export default function Home() {
       alert("Debe colocar un nombre");
     } else {
       dispatch(getRecipeName(input));
-      // setCurrentPage(1)
     }
-    // // setCurrentPage(1);
-    // setOrder(e.target.value)
     setInput("");
   }
 
@@ -156,7 +152,7 @@ export default function Home() {
         </div>
       </div>
       <div className="home-body-card">
-        {currentRecipes[0] ? 
+        {currentRecipes[0] ? (
           currentRecipes.map((e) => {
             if (e) {
               return (
@@ -175,12 +171,12 @@ export default function Home() {
               );
             }
           })
-         : 
+        ) : (
           <div className="loading">
             <img src="https://i.gifer.com/VAyR.gif" alt="Not Found GIF" />
             <span> Loading</span>
           </div>
-        }
+        )}
       </div>
     </div>
   );
