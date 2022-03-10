@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/Home.png" alt="Logo" width="800" height="600">
+    <img src="images/fondo.png" alt="Logo" width="800" height="600">
   </a>
 
   <h3 align="center">FOOD</h3>
