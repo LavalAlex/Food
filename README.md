@@ -32,10 +32,11 @@
 <br />
 <div align="center">
   <h1 align="center">FOOD</h1>
-  (https://example.com)
+ 
 
   <img src="images/Home.png" alt="Logo" width="600" height="400">
 </div>
+ (https://example.com)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
