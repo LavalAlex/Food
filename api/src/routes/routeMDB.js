@@ -4,7 +4,6 @@ const routerMongo = Router();
 const Diet = require("../models/dietMDB");
 const Recipe = require("../models/recipeMDB");
 const { getDiet, getRecipesAll, getRecipeId } = require("../utils/utilsMongo");
-// const { getAllRecipe } = require("./getInfo");
 
 routerMongo.get("/types", async (req, res) => {
   try {
