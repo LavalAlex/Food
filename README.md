@@ -32,7 +32,7 @@
 <br />
 <div align="center">
   <h3 align="center">FOOD</h3>
-  <img src="images/Home.png" alt="Logo" width="400" height="400">
+  <img src="images/Home.png" alt="Logo" width="600" height="400">
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -78,7 +78,7 @@ DB_USER= nombre_user
 DB_PASSWORD= password
 DB_HOST= localhost
 DB_NAME= nombre_basedato
-apiKey= key que te otorga la api al crearte la cuenta
+apiKey= key que te otorga la api al crear la cuenta
 url =https://api.spoonacular.com/recipes/complexSearch?&addRecipeInformation=true&number=100&apiKey=
 ```
 
