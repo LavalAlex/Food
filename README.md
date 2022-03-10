@@ -39,7 +39,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el Proyecto
 La idea general es crear una aplicación en la cual se puedan ver distintas recetas de comida junto con información relevante de las mismas utilizando la api externa [spoonacular](https://spoonacular.com/food-api) y a partir de ella poder, entre otras cosas:
 
 - Buscar recetas
@@ -54,23 +54,23 @@ __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cu
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Arrancando...
 
 
 
-### Prerequisites
+### Requisitos:
 
  * __Node__: 12.18.3 o mayor
  * __NPM__: 6.14.16 o mayor
  
 
-### Installation
+### Iniciacion:
 
 Iniciar node en las carpetas api y client con:
 
 *npm 
 ```sh
-npm init --yess
+npm install
 ```
 
 Ademas debe generar un archivo `.env` en la carpeta API donde:
@@ -84,7 +84,7 @@ apiKey= key que te otorga la api al crear la cuenta
 url =https://api.spoonacular.com/recipes/complexSearch?&addRecipeInformation=true&number=100&apiKey=
 ```
 
-### Initiation:
+### Para arrancar el proyecto:
 
 __Api__ and __Client__:
 *npm 
