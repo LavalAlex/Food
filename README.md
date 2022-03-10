@@ -31,7 +31,7 @@
 
 <br />
 <div align="center">
-  <h3 align="center">FOOD</h3>
+  <h1 align="center">FOOD</h1>
   <img src="images/Home.png" alt="Logo" width="600" height="400">
 </div>
 
