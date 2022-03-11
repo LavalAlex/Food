@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.776b1a0d.chunk.css",
+    "main.js": "/static/js/main.e4524902.chunk.js",
+    "main.js.map": "/static/js/main.e4524902.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.44b5689d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.44b5689d.js.map",
+    "static/js/2.5c437a0e.chunk.js": "/static/js/2.5c437a0e.chunk.js",
+    "static/js/2.5c437a0e.chunk.js.map": "/static/js/2.5c437a0e.chunk.js.map",
+    "static/js/3.fefc5d73.chunk.js": "/static/js/3.fefc5d73.chunk.js",
+    "static/js/3.fefc5d73.chunk.js.map": "/static/js/3.fefc5d73.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.776b1a0d.chunk.css.map": "/static/css/main.776b1a0d.chunk.css.map",
+    "static/js/2.5c437a0e.chunk.js.LICENSE.txt": "/static/js/2.5c437a0e.chunk.js.LICENSE.txt",
+    "static/media/Created.css": "/static/media/comida8.0499d645.jpg",
+    "static/media/Details.css": "/static/media/img-fodo1.ba8ad2ef.jpeg",
+    "static/media/landingPage.css": "/static/media/img-fodo5.a4e257c5.jpeg",
+    "static/media/Home.css": "/static/media/madera2.cfb1698a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44b5689d.js",
+    "static/js/2.5c437a0e.chunk.js",
+    "static/css/main.776b1a0d.chunk.css",
+    "static/js/main.e4524902.chunk.js"
+  ]
+}
